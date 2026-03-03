@@ -12,4 +12,6 @@ jobs:
     steps:
       - name: Run hello world
         run: echo "Hello world"
-        shell: bash
+      - name: Run goodbye world
+        run: echo "Goodbye world"
+        shell: bash 
